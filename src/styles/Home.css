@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.tombol {
+  width: 100px;
+}
+
+.h-1000{
+  height: 1000px;
+}
+
+.box-border{
+  border: solid lightblue;
+  border-radius: 25px;
+  padding: 3% ;
+}
+
+.border-25{
+  border-radius: 25px;
+}
+
+.bg-blue{
+  background-color: #3EAFEF;
+}
+
+.bg-dblue{
+  background-color: darkblue
+}
+
+.bg-img{
+  background-position: 'center';
+  background-size: auto;
+  background-repeat: 'no-repeat';
+  min-width: 1000%; 
+}
+
+.image{
+  max-width: 500px;
+}
+
+.up{
+  top: -250px;
+}
+
+#jumbotron{
+  background-image: url(../assets/img/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  align-content: center;
+
+}
+
+.bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: inherit;
+}
+
+#SD{
+  background-image: url(../assets/img/sd.png);  
+  height: 250px;
+}
+
+#SMP{
+  background-image: url(../assets/img/smp.png);  
+  height: 250px;
+}
+
+#SMA{
+  background-image: url(../assets/img/sma.png);  
+  height: 250px;
+}
+
+.ft-class{
+  background-color: aliceblue;
+  margin-top: 125px;
+  border-radius: 20px;
+}
+
+#T1{
+  background-image: url(../assets/img/teacher/1.png);  
+  height: 450px;
+}
+
+#page-1{
+  background-image: url(../assets/img/box/P1.png);
+  height: 550px;
+}
+
+#page-2{
+  background-image: url(../assets/img/box/P2.png);
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+#page-3{
+  background-image: url(../assets/img/box/P3.png);
+  height: 250px;
+}
+
+#page-4{
+  background-image: url(../assets/img/box/P4.png);
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+#page-5{
+  background-image: url(../assets/img/box/P5.png);
+  height: 250px;
+}

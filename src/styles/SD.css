@@ -1,0 +1,31 @@
+
+.bg-img{
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+#Kelas1{
+  background-image: url(../assets/img/belajar/Kelas1.png); 
+}
+
+#Kelas2{
+  background-image: url(../assets/img/belajar/Kelas2.png); 
+}
+
+#Kelas3{
+  background-image: url(../assets/img/belajar/Kelas3.png); 
+}
+
+#Kelas4{
+  background-image: url(../assets/img/belajar/Kelas4.png); 
+}
+
+#Kelas5 { 
+  background-image: url(../assets/img/belajar/Kelas5.png); 
+}
+
+#Kelas6 {
+  background-image: url(../assets/img/belajar/Kelas6.png); 
+}
