@@ -14,7 +14,7 @@ export default function index() {
             Aplikasi Pembelajaran Online <br />
             Untuk anak Sekolah
           </p>
-          <a href="" className="btn btn-md btn-primary w-25 rounded-pill">
+          <a href="" className="btn btn-md btn-primary  rounded-pill">
             Download Aplikasi
           </a>
         </div>
