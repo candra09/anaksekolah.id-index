@@ -25,6 +25,13 @@ function App() {
   }
 
   React.useEffect(function() {
+    (async function() {
+      
+      const script = document.createElement("script");
+      script.src = "/carousel.js";
+      script.async = false;
+      document.body.appendChild(script);
+  })();
 
     //ketika pertama kali components dijalankan maka akan mengecek status terlebih dahulu
     handleOfflineStatus();

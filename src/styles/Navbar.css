@@ -1,14 +1,18 @@
 .navbar {
   width: 100%;
-  height: 100px;
+  /* height: 100px; */
   background-color: #fff;
   display: flex;
   flex-direction: row;
 }
 
-img{
-  width: 128px;
+.navbar-brand{
+  float: none !important;
 }
+
+/* img{
+  width: 128px;
+} */
 
 li{
   margin: 10px 20px;
