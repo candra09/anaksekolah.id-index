@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from '../../assets/logo-180.png';
+import logo from '../../assets/logo76.png';
 import '../../styles/Navbar.css';
 import Login from "./Login";
 
@@ -9,7 +9,7 @@ function Navbar() {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm">
         <div class="container">
-          <a className="navbar-brand" href="/"><img src={logo} alt="anaksekolah.id" width="128" height="80" /></a>
+          <a href="/"><img src={logo} alt="anaksekolah.id"/></a>
           <button
             class="navbar-toggler"
             type="button"

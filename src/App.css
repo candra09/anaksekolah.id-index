@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,7 +11,7 @@
 
 .navbar-nav a {
     font-size: 20px;
-    margin: 25px auto;
+    /* margin: 25px auto; */
 }
 
 .border-25 {
@@ -31,3 +34,4 @@
     width: 64px;
     height: 64px;
 }
+

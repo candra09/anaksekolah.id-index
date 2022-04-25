@@ -1,5 +1,7 @@
 import React from "react";
 import prom from "../../assets/videos/prom.mp4";
+import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem, MDBDropdownLink } from 'mdb-react-ui-kit';
+
 
 export default function index() {
   return (
@@ -22,32 +24,23 @@ export default function index() {
 
       <div className="container my-3 bg-blue border-25">
         <div className="d-flex flex-row mx-4 py-3 text-center">
-          <div className="col-md-4">
-            <h4 className="m-4 text-white">Pilih Jenjang Pendidikan </h4>
-          </div>
-          <div className="col-md-2">
-            <a
-              href="/SD"
-              className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white"
-            >
-              SD
-            </a>
-          </div>
-          <div className="col-md-2">
-            <a className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white">
-              SMP
-            </a>
-          </div>
-          <div className="col-md-2">
-            <a className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white">
-              SMA
-            </a>
-          </div>
-          <div className="col-md-2">
-            <a className="btn btn-md m-4 w-75 rounded-pill bg-primary text-white">
-              SMK
-            </a>
-          </div>
+        <MDBDropdown>
+      <MDBDropdownToggle>Pilih Jenjang Pendidikan</MDBDropdownToggle>
+      <MDBDropdownMenu>
+        <MDBDropdownItem>
+          <MDBDropdownLink href="#">SD</MDBDropdownLink>
+        </MDBDropdownItem>
+        <MDBDropdownItem>
+          <MDBDropdownLink href="#">SMP</MDBDropdownLink>
+        </MDBDropdownItem>
+        <MDBDropdownItem>
+          <MDBDropdownLink href="#">SMA</MDBDropdownLink>
+        </MDBDropdownItem>
+        <MDBDropdownItem>
+          <MDBDropdownLink href="#">SMK</MDBDropdownLink>
+        </MDBDropdownItem>
+      </MDBDropdownMenu>
+    </MDBDropdown>
         </div>
         <div class="card-group mx-2 my-3 text-white">
           <div className="card mx-3 mb-5 bg-info">
@@ -66,12 +59,12 @@ export default function index() {
             </div>
             <div className="card-footer bg-light text-dark d-flex">
               <div className="col-md">
-                <h6 className="fst-italic fw-bolder my-4 mx-2">
-                  Rp 1.000.000
-                </h6>
+                <h6 className="fst-italic fw-bolder my-4 mx-2">Rp 1.000.000</h6>
               </div>
               <div className="col-md">
-                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">
+                  Langganan
+                </a>
               </div>
             </div>
           </div>
@@ -91,19 +84,21 @@ export default function index() {
             </div>
             <div className="card-footer bg-light text-dark d-flex">
               <div className="col-md">
-                <h6 className="fst-italic fw-bolder my-4 mx-2">
-                  Rp 1.000.000
-                </h6>
+                <h6 className="fst-italic fw-bolder my-4 mx-2">Rp 1.000.000</h6>
               </div>
               <div className="col-md">
-                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">
+                  Langganan
+                </a>
               </div>
             </div>
           </div>
           <div className="card mx-3 mb-5 bg-info">
             <div class="card-body bg-image">
               <div class="row d-flex justify-content-end">
-                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">Promo</a>
+                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">
+                  Promo
+                </a>
               </div>
               <div className="row">
                 <h5 className="fst-italic mx-3">
@@ -117,14 +112,18 @@ export default function index() {
                 <h6 className="fst-italic fw-bolder my-4 mx-2">Rp 1.000.000</h6>
               </div>
               <div className="col-md">
-                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">
+                  Langganan
+                </a>
               </div>
             </div>
           </div>
           <div className="card mx-3 mb-5 bg-info">
             <div class="card-body bg-image">
               <div class="row d-flex justify-content-end">
-                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">Promo</a>
+                <a className="btn btn-sm bg-light m-3 rounded-pill w-50 fw-bold">
+                  Promo
+                </a>
               </div>
               <div className="row">
                 <h5 className="fst-italic mx-3">
@@ -138,7 +137,9 @@ export default function index() {
                 <h6 className="fst-italic fw-bolder my-4 mx-2">Rp 1.000.000</h6>
               </div>
               <div className="col-md">
-                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">Langganan</a>
+                <a className="btn bg-warning rounded-pill btn-block fw-bolder my-3">
+                  Langganan
+                </a>
               </div>
             </div>
           </div>
